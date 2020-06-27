@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/side_design"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/selectDateButton"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_design"
+            android:text="날짜 선택" />
+
+        <TextView
+            android:id="@+id/selectedDateStr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="선택한 날짜" />
+
+        <EditText
+            android:id="@+id/titleStr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="내용 입력"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/side_design"
+            android:text="저장하기" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
