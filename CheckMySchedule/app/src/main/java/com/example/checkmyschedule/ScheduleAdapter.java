@@ -63,6 +63,7 @@ public class ScheduleAdapter extends ArrayAdapter<Schedule> {
         return view;
     }
 
+    // 리스트뷰 내 버튼 클릭으로 아이템 동적 삭제
     Button.OnClickListener mOnClickListener = new Button.OnClickListener() {
         @Override
         public void onClick(View view) {
